@@ -1,0 +1,117 @@
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33;}
+.col-8{width: 66.66;}
+.col-9{width: 75%;}
+.col-10{width: 83.33;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+/*navbar starts from here*/
+.navbar img{
+    width: 50%;
+    height: 50%;
+}
+.nav-logo{
+    text-align: left;
+}
+.nav-heading h1{
+    text-align: right;
+}
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+/*navbar ends here*/
+
+/*profile starts from here*/
+
+.profile .top-farid-icon{
+    right: 100px;
+    width: 200px;
+    transition: width 2s, transform 2s;
+}
+.profile .top-farid-icon:hover{
+    width: 200px;
+}
+
+.profile-desc p{
+    color: gray;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.profile .bottom-farid-icon{
+    bottom: 20px;
+    left: 100px;
+    width: 200px;
+    transition: width 2s, transform 2s;
+}
+.profile .bottom-farid-icon:hover{
+    width: 200px;
+}
+
+/*profile ends here*/
+
+/*about me starts from here */
+
+.aboutme-image{
+    margin-top: 100px;
+}
+.aboutme-image img{
+    width: 250px;
+    height: 270px;
+}
+
+/*about me ends here*/
+
+
+/*professinal expience stars from here*/
+.professinal-experience{
+    padding: 10px;
+}
+.work-ex{
+    padding: 20px;
+    margin-right: 50px;
+}
+/*professinal expience ends here*/
+
+
+/*Achievement contact start from here*/
+.achievement-contact{
+    padding-right: 50px;
+}
+.contact button{
+    width: 150px;
+}
+.contact-link{
+    position: relative;
+}
+.media-buttons{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/*Achievement contact ends here*/
+
+/*footer starts from here*/
+.footer{
+    margin-top: 12px;
+}
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
+/*footer ends here*/
